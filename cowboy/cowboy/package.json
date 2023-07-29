@@ -6,6 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+
+    "folder01": " code C:/FxM/Dev/Java/dev/spring-boot-angular6-maven-project/spring-boot-angular6-maven-project/cowboy/cowboy",
+    "folder02": " code C:/FxM/Dev/Java/dev/spring-boot-angular6-maven-project/spring-boot-angular6-maven-project/tutorial-web",
+    "open-both0": "npm run folder01 && npm run folder02",
+
     "test": "ng test"
   },
   "private": true,
