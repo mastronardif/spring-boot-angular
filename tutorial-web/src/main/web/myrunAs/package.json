@@ -1,0 +1,31 @@
+{
+  "name": "myrunas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yoyoyo.js",
+  "scripts": {
+    "start": "node yoyoyo.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-windows": "npm run window1 && timeout 10 && npm run window2 && timeout 10 && npm run window3",
+    "window1": "start cmd.exe /k echo Window 1",
+    "window2": "start cmd.exe /k echo Window 2",
+    "window3": "start cmd.exe /k echo Window 3"
+  },
+  "dependencies": {
+    "@angular/animations": "^6.1.0",
+    "@angular/common": "^6.1.0",
+    "@angular/compiler": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "@angular/forms": "^6.1.0",
+    "@angular/http": "^6.1.0",
+    "@angular/platform-browser": "^6.1.0",
+    "@angular/platform-browser-dynamic": "^6.1.0",
+    "@angular/router": "^6.1.0",
+    "core-js": "^2.5.4",
+    "rxjs": "^6.0.0",
+    "zone.js": "~0.8.26"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

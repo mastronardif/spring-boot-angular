@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "lint": "ng lint",
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "pack": "npm pack"
+  },
+  "devDependencies": {
+    "cross-var": "^1.1.0"
+  }
+}
