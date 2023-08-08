@@ -1,0 +1,40 @@
+.image-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-container img {
+  /* Adjust the image size as needed */
+  width: 200px;
+  height: auto;
+  margin-right: 10px; /* Add some spacing between the image and headings */
+}
+
+.image-container h2,
+.image-container h3 {
+  /* Reset margin to remove default spacing */
+  margin: 0;
+}
+
+
+.image-container,
+.headings-container {
+  display: flex;
+}
+
+.image-container img {
+  /* Adjust the image size as needed */
+  width: 200px;
+  height: auto;
+  margin-right: 10px; /* Add some spacing between the image and headings */
+}
+
+.headings-container {
+  flex-direction: column;
+}
+
+.headings-container h2,
+.headings-container h3 {
+  /* Reset margin to remove default spacing */
+  margin: 0;
+}
